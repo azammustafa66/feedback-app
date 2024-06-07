@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "extends": "../../packages/config-typescript/vite.json",
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

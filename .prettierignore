@@ -1,0 +1,50 @@
+# Ignore build output
+/dist
+# Ignore package build output
+/packages/*/dist
+
+# Ignore package node_modules
+/packages/*/node_modules
+
+# Ignore package generated files
+/packages/*/build
+
+# Ignore package coverage reports
+/packages/*/coverage
+
+# Ignore package configuration files
+/packages/*/.eslintrc
+/packages/*/.babelrc
+/packages/*/.prettierrc
+/packages/*/.editorconfig
+
+# Ignore specific files or directories in packages
+/packages/*/src/assets
+/packages/*/src/styles
+
+# Ignore env files in packages
+/packages/*/.env
+/packages/*/.env.example
+
+# Ignore node_modules
+/node_modules
+
+# Ignore generated files
+/build
+
+# Ignore coverage reports
+/coverage
+
+# Ignore configuration files
+/.eslintrc
+/.babelrc
+/.prettierrc
+/.editorconfig
+
+# Ignore specific files or directories
+/src/assets
+/src/styles
+
+#Ignore env files
+.env
+.env.example
