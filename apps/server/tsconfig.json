@@ -1,0 +1,10 @@
+{
+  "extends": "../../packages/config-typescript/base.json",
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ESNext",
+    "types": ["node", "express", "vite/client"],
+    "esModuleInterop": true,
+    "strict": false
+  }
+}
