@@ -3,3 +3,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-gradient {
+  @apply rounded-[10px];
+  background: radial-gradient(
+    166.82% 166.82% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%
+  );
+}
+
+@layer utilities {
+  .custom-gradient {
+    @apply rounded-[10px];
+    background: radial-gradient(
+      166.82% 166.82% at 103.9% -10.39%,
+      #e84d70 0%,
+      #a337f6 53.09%,
+      #28a7ed 100%
+    );
+  }
+
+  .heading1 {
+    @apply text-h1;
+  }
+
+  .heading2 {
+    @apply text-h2;
+  }
+
+  .body1 {
+    @apply text-h3;
+  }
+
+  .body2 {
+    @apply text-h4;
+  }
+
+  .body3 {
+    @apply text-h5;
+  }
+
+  .flex-center-between {
+    @apply flex items-center justify-between;
+  }
+
+  .flex-start-between {
+    @apply flex items-start justify-between;
+  }
+
+  .body1-regular {
+    @apply text-base font-normal;
+  }
+
+  .body1-bold {
+    @apply text-base font-bold;
+  }
+}

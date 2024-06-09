@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
     })
 
     // Start the server
-    app.listen(import.meta.env.VITE_PORT || 8000, () => {
+    app.listen(import.meta.env.VITE_PORT, () => {
       console.log(`Server is running on http://localhost:${import.meta.env.VITE_PORT}`)
     })
   } catch (error) {

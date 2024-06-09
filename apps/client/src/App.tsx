@@ -1,14 +1,14 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Home from './components/pages/Home'
 
 export default function App() {
   return (
-    <div className='flex h-screen items-center justify-center bg-[#111] text-white'>
-      <img src={reactLogo} alt='React Logo' />
-      <img src={viteLogo} alt='Vite Logo' />
-      <h1>Hello Vite + React!</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </Router>
   )
 }
